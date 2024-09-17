@@ -64,6 +64,7 @@
 
 .header__theme-menu-button_active {
     outline: 1px solid var(--color-btn);
+    pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
@@ -105,7 +106,7 @@
     font-size: var(--font-size-title);
     color: var(--title-color);
     text-transform: lowercase;
-    text-shadow: var(--text-shadow);
+    text-shadow: 4px 4px 0 var(--color-shadow);
     line-height: 82.5%;
 }
 
@@ -183,7 +184,7 @@
 }
 
 .footer__title {
-    --text-shadow: 2px 2px 0 var(--accent-color);
+    --text-shadow: 2px 2px 0 var(--color-shadow);
     text-shadow: var(--text-shadow);
 }
 
@@ -265,5 +266,9 @@
 
     .section__reasons .section__artic-list {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .title {
+        --color-shadow: #ff0070;
     }
 }

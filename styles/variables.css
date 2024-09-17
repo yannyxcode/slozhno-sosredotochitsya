@@ -9,7 +9,8 @@
     --font-fam: "IBM Plex mono", sans-serif;
     --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --background-image: url(../images/cover-image-dark.png);
-    --text-shadow: 4px 4px 0 var(--accent-color);
+    --color-shadow: #ff0070;
+    /* --text-shadow: 4px 4px 0 var(--color-shadow); */
     --font-weight: 700;
     --font-size-text: 18px;
     --header-gap: 20px;

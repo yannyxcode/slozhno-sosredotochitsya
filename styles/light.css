@@ -4,6 +4,7 @@
     --text-underline: #fff1f7;
     --text-color: #353430;
     --accent-color: #ff8dcb;
+    --color-shadow: #ff8dcb;
     --color-btn: #353430;
     --title-color: #ffc2e6;
     --background-image: url(../images/cover-image-light.png);
@@ -17,6 +18,7 @@
         --text-underline: #fff1f7;
         --text-color: #353430;
         --accent-color: #ff8dcb;
+        --color-shadow: #ff8dcb;
         --color-btn: #353430;
         --title-color: #ffc2e6;
         --background-image: url(../images/cover-image-light.png);
