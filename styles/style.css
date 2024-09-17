@@ -159,6 +159,19 @@
 .link {
     --text-shadow: 2px 2px var(--accent-color);
     text-shadow: var(--text-shadow);
+    line-height: 100%;
+}
+
+.link:hover {
+    border-bottom: 1px solid var(--main-color);
+}
+
+.link:focus {
+    outline: none;
+}
+
+.link:focus-visible {
+    outline: 1px solid var(--main-color);
 }
 
 .section__recommendation .article .title-artic {
