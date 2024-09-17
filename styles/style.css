@@ -154,10 +154,6 @@
     font-size: var(--font-size-text);
 }
 
-.decor-line {
-    border-bottom: 1.5px solid var(--text-underline);
-}
-
 .link {
     --text-shadow: 2px 2px var(--accent-color);
     text-shadow: var(--text-shadow);
@@ -226,10 +222,6 @@
     .section__image-gallery {
         display: flex;
         flex-direction: column;
-    }
-
-    .decor-line {
-        text-decoration: none;
     }
 
     .image-sun {
