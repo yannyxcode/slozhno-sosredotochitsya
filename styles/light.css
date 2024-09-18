@@ -8,6 +8,7 @@
     --color-btn: #353430;
     --title-color: #ffc2e6;
     --background-image: url(../images/cover-image-light.png);
+    --color-btn-opacity: #32312d66;
     --visible: hidden;
 }
 
@@ -22,6 +23,7 @@
         --color-btn: #353430;
         --title-color: #ffc2e6;
         --background-image: url(../images/cover-image-light.png);
+        --color-btn-opacity: #32312d66;
         --visible: hidden;
     }
 }

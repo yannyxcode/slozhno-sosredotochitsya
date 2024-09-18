@@ -68,8 +68,7 @@
 }
 
 .header__theme-menu-button:hover {
-    outline: 1px solid var(--color-btn);
-    opacity: 40%;
+    outline: 1px solid var(--color-btn-opacity);
 }
 
 .header__theme-menu-button:focus {
